@@ -34,6 +34,7 @@ def play_game():
     print("Welcome to Tic Tac Toe!\nPlayer 1 is X, Player 2 is O")
 
     while True:
+        continue
         print_board(board)
         try:
             move = input(f"Player {current_player}, enter your move (row and column, 1-3 each, space-separated): ")
