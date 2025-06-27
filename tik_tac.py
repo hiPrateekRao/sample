@@ -9,7 +9,7 @@ def check_winner(board, player):
     # Check rows
     for row in board:
         if all(cell == player for cell in row):
-            return True
+            return False
 
     # Check columns
     for col in range(3):
